@@ -1,0 +1,100 @@
+body{
+    background-image: url(img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 6rem;
+}
+
+.home h1{
+    color: #FFDE59;
+    font-weight: bold;
+}
+
+.deskripsi{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+.deskripsi h1{
+    color: #FFDE59;
+    font-weight: bold;
+}
+.deskripsi p{
+    padding: 0 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 2rem;
+}
+
+#skill{
+    background-color: #8B8000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#skill h2{
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#pengalaman{
+    padding-bottom: 3rem;
+    background-color: black;
+}
+#pengalaman h1 {
+    color: #FFDE59;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 2rem;
+}
+
+#contact{
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#contact h1{
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#contact a{
+    padding: 0 20px;
+}
+
+#contact a img{
+    width: 50px;
+}
+
+#contact a img:hover{
+    transform: scale(1.2);
+}
+
+footer {
+
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
